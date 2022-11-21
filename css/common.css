@@ -24,12 +24,24 @@
     background-color: #b4d0e7;
 }
 
+/* BUTTONS */
+
 .buttons{
     background-color: #0061ff;
     padding: 8px 20px;
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+.btn-special{
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
 
