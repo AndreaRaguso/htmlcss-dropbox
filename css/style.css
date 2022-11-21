@@ -6,6 +6,8 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 15px;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul{
@@ -36,6 +38,7 @@ nav ul li{
 
 .title{
     font-size: 85px;
+    margin-top: 90px;
 }
 
 .head-bottom{
@@ -57,6 +60,72 @@ nav ul li{
 }
 
 .jumbo img{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+}
+
+/* main */
+
+.business-plan{
+    padding-top: 300px;
+}
+
+.business-plan h2{
+    font-size: 50px;
+}
+
+.link{
+    margin: 30px 0;
+}
+
+.link a{
+    margin-right: 60px;
+}
+
+.cards{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: calc(100% / 3 - 10px);
+    padding-bottom: 40px;
+}
+
+.card-special{
     width: 100%;
-    height: 100%;
+    margin-top: 40px;
+}
+
+.card-title{
+    text-align: center;
+    border: 2px solid lightgrey;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.contain{
+    padding: 35px;
+    border: 2px solid lightgrey;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.contain h3{
+    font-size: 28px;
+}
+
+.fa-check{
+    color: #015eff;
+    font-size: 20px;
+}
+
+.option{
+    margin: 40px 0;
+}
+
+.option div{
+    margin: 15px 0;
+    display: inline-block;
 }

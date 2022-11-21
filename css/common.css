@@ -50,8 +50,10 @@
     flex-wrap: wrap;
 }
 
-.container50{
-   max-width: 50vw;
+.container55{
+   max-width: 55vw;
+   margin: 0 auto;
+   flex-wrap: wrap;
 }
 
 
