@@ -26,9 +26,10 @@
 
 .buttons{
     background-color: #0061ff;
-    padding: 10px;
+    padding: 8px 20px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
