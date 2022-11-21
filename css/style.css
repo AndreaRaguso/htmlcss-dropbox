@@ -271,3 +271,25 @@ nav ul li{
 }
 
 /* SPONSOR PAGE */
+
+.sponsor{
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.sponsor div{
+    width: calc(100% / 3);
+    height: 100px;
+}
+
+.sponsor-img{
+    width: calc(100% / 2);
+    flex-wrap: wrap;
+    height: 100px;
+    height: 300px;
+}
+
+.sponsor-img img{
+    width: calc(100% / 2 - 20px);
+    height: 50%;
+}
