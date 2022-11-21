@@ -1,6 +1,3 @@
-body{
-    height: 8000px;
-}
 
 /* Header */
 
@@ -10,6 +7,7 @@ nav{
     padding: 15px;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 nav ul{
@@ -186,6 +184,11 @@ nav ul li{
 .buy a{
     color:#015eff;
 }
+
+.link a:before{
+    content: ;
+}
+
 
 /* BOX PARTNER */
 
@@ -403,16 +406,16 @@ nav ul li{
     padding: 100px 0;
 }
 
-.link{
+.link-f{
     justify-content: space-between ;
 }
 
-.link div{
+.link-f div{
     width: calc(100% / 6);
     padding-bottom: 80px;
 }
 
-.link ul{
+.link-f ul{
     list-style: none;
     line-height: 30px;
 }
