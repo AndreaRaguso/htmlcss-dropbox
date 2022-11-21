@@ -13,10 +13,15 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 nav ul li{
     padding: 0 15px;
+}
+
+nav ul li:hover{
+    border-bottom: 4px solid black;
 }
 
 .nav-img{
@@ -414,6 +419,14 @@ nav ul li{
 .link-f ul{
     list-style: none;
     line-height: 30px;
+}
+
+.link-f ul li:hover{
+    text-decoration: underline;
+}
+
+.link-f ul li:first-child:hover{
+    text-decoration: none;
 }
 
 .list-title{
