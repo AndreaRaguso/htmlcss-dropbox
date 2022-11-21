@@ -1,0 +1,58 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* PALETTE
+- Buttons --> #0061ff
+- Bg-main-top-boot --> #b4d0e7
+- Bg-page --> White
+- Bg-footer --> Black
+*/
+
+.bg-page{
+    background-color: #ffff;
+}
+
+.bg-footer{
+    background-color: #000000;
+}
+
+.bg-cyan{
+    background-color: #b4d0e7;
+}
+
+.buttons{
+    background-color: #0061ff;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* GENERAL */
+
+.flex{
+    display: flex;
+}
+
+/* CONTAINER */
+
+.container100{
+    max-width: 100vw;
+}
+
+.container65{
+    max-width: 65vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.container50{
+   max-width: 50vw;
+}
+
+
+
