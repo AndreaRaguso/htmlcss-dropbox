@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* PALETTE
 - Buttons --> #0061ff
 - Bg-main-top-boot --> #b4d0e7

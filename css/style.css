@@ -8,6 +8,8 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 3;
+    top: 0;
+    left: 0;
 }
 
 nav ul{
@@ -19,10 +21,12 @@ nav ul{
 
 nav ul li{
     padding: 0 15px;
+    cursor: pointer;
 }
 
 .nav-img{
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .nav-dx{
@@ -59,6 +63,8 @@ nav ul li{
     margin-top: 40px;
     margin-bottom: 15px;
     font-size: 50px;
+    color: black;
+    display: block;
 }
 
 .jumbo img{
@@ -275,14 +281,15 @@ nav ul li{
 .sponsor-img{
     width: calc(100% / 2);
     flex-wrap: wrap;
+    height: calc(100vw / 3);
 }
 
 .sponsor-img div{
     width: calc(100% / 2);
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(33vw / 2);
 }
 
 .sponsor-img img{
@@ -326,6 +333,8 @@ nav ul li{
 .center-text{
     background-color: #f5f5f5;
     padding: 50px;
+    overflow: auto;
+    height: calc(100vw / 3);
 }
 
 .center-text img{
@@ -368,6 +377,11 @@ nav ul li{
 
 /* FAQ */
 
+.cont{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .faq{
     padding-top: 150px;
     padding-bottom: 150px;
@@ -392,8 +406,33 @@ nav ul li{
     font-size: 18px;
 }
 
+.text , .chevron{
+    padding-bottom: 20px;
+}
+
+.text{
+    width: 70%;
+    font-weight: bold;
+}
+
 .chevron{
-    padding-right: 40px
+    padding-right: 40px;
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.faq-h:target:after{
+    content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni recusandae assumenda eligendi ab, nam cumque. Consequuntur doloribus ad sint culpa odio, similique quis tempore ipsam nam odit distinctio ullam accusantium!";
+    padding-right: 40px;
+    width: 85%;
+}
+
+.faq-h:target .chevron{
+    transform: rotate(180deg);
+    align-items: center;
+    margin-bottom: 20px;
+
 }
 
 /* FOOTER */
