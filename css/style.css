@@ -94,6 +94,10 @@ nav ul li{
     font-size: 18px;
 }
 
+.plans-text{
+    flex-wrap: wrap;
+}
+
 .radio{
     background-color: red;
     width: 50px;
