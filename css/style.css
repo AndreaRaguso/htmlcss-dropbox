@@ -2,21 +2,20 @@
 /* Header */
 
 nav{
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
     z-index: 3;
     top: 0;
     left: 0;
+    height: 60px;
+    line-height: 60px;
 }
 
 nav ul{
     list-style: none;
     display: flex;
-    align-items: center;
-    position: relative;
+
 }
 
 nav ul li{
@@ -24,18 +23,28 @@ nav ul li{
     cursor: pointer;
 }
 
-.nav-img{
-    margin: 0 10px;
-    cursor: pointer;
+nav ul li:hover{
+    border-bottom: 3px solid black;
 }
 
+#nav-img{
+    margin: 0 10px;
+    cursor: pointer;
+    vertical-align: middle;
+    border-bottom: none;
+}
+
+.nav-sx ul li:first-child{
+    border-bottom: none;
+}
+
+
 .nav-dx{
-    flex-grow: 1;
     justify-content: flex-end;
 }
 
-.nav-sx{
-    flex-grow: 2;
+.nav-dx ul li:last-child{
+    border-bottom: none;
 }
 
 .col-sx{
@@ -67,10 +76,16 @@ nav ul li{
     display: block;
 }
 
+.jumbo{
+    width: 70%;
+    position: relative;
+}
+
 .jumbo img{
-    width: 60%;
-    height: 60%;
+    width: 120%;
     position: absolute;
+    top: 10%;
+    left: 0;
 }
 
 /* main */
