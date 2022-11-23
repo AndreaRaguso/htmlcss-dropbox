@@ -15,7 +15,6 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-
 }
 
 nav ul li{
@@ -38,7 +37,6 @@ nav ul li:hover{
     border-bottom: none;
 }
 
-
 .nav-dx{
     justify-content: flex-end;
 }
@@ -47,6 +45,7 @@ nav ul li:hover{
     border-bottom: none;
 }
 
+/* Colonna sinistra header main */
 .col-sx{
     width: 30%;
 }
@@ -76,12 +75,14 @@ nav ul li:hover{
     display: block;
 }
 
-.jumbo{
+/* Colonna destra Header Main */
+
+.col-dx{
     width: 70%;
     position: relative;
 }
 
-.jumbo img{
+.col-dx img{
     width: 120%;
     position: absolute;
     top: 10%;
@@ -89,12 +90,14 @@ nav ul li:hover{
 }
 
 /* main */
+
+
 /* BUSINESS PLAN */
 .business-plan{
     padding-top: 300px;
 }
 
-.business-plan h2{
+#plan h2{
     font-size: 50px;
 }
 
@@ -190,13 +193,18 @@ nav ul li:hover{
     font-size: 20px;
 }
 
-.check{
+.check ol li{
     margin-bottom: 15px;
 }
 
 .option{
     margin-top: 10px;
     margin-bottom: 40px;
+    height: 210px;
+}
+
+.option ol li{
+    margin-bottom: 15px;
 }
 
 .option div{
